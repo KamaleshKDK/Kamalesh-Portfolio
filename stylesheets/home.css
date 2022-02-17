@@ -239,4 +239,12 @@ canvas {
     vertical-align: bottom;
 }
 
+ /* ---- particles.js container ---- */
+ 
+#particles-js {
+    position: absolute;
+    background-color: #000b3e;
+    background-size: cover;
+}
+
 
