@@ -196,7 +196,6 @@
     margin-top: 4px;
     color: var(--white-03);
 }
-
 @media screen and (max-width: 1120px) {
     .about-right {
         left: 52%;
@@ -207,7 +206,6 @@
     .about-image > img {
         width: 370px;
         margin-left: 30px;
-        margin-top: 100px;
     }
 
     .about-tabs {
@@ -249,12 +247,10 @@
 
     .about-image > img {
         width: 368px;
-        margin-top: 100px;
     }
 
     .about-headline > h1 {
         font-size: 110px;
-        margin-top: 40px;
     }
 
     .about-info {
@@ -281,7 +277,6 @@
     .about-image > img {
         width: 360px;
         padding-bottom: 8px;
-        margin-top: 100px;
     }
 
     .about-right {
@@ -294,7 +289,6 @@
 
     .about-headline > h1 {
         font-size: 98px;
-        margin-top: 40px;
     }
 
     .about-content {
@@ -324,7 +318,6 @@
     .about-image > img {
         width: 340px;
         margin-left: 0;
-        margin-top: 100px;
     }
 
     .about-left {
@@ -358,7 +351,6 @@
         width: 285px;
         padding-bottom: 30px;
         padding-top: 20px; 
-        margin-top: 100px;
     }
 
     .about-left {
@@ -376,7 +368,6 @@
 
     .about-headline > h1 {
         font-size: 65px;
-        margin-top: 40px;
     }
 
     .lines {
@@ -425,7 +416,6 @@
 
     .about-image > img {
         width: 270px;
-        margin-top: 100px;
     }
 }
 
@@ -439,13 +429,11 @@
 @media screen and (max-width: 450px) {
     .about-image > img {
         width: 260px;
-      margin-top: 100px;
         /* padding: 0; */
     }
 
     .about-headline > h1 {
         font-size: 60px;
-        margin-top: 40px;
     }
 
     .about-links > span {
@@ -484,12 +472,10 @@
 
     .about-headline > h1 {
         font-size: 57px;
-       
     }
 
     .lines > span {
         width: 68px;
-     
     }
 }
 
