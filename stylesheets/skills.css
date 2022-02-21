@@ -353,7 +353,8 @@
         height: 43px!important
     }
     .skills-headline>h1 {
-        font-size: 65px
+        font-size: 65px;
+        
     }
     .skills-info {
         font-size: 18px
