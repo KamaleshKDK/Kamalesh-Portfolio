@@ -5,7 +5,9 @@
     margin-left: 11%;
     align-items: center;
 }
-
+.email-icon{
+    color: var(--primary-color);
+}
 .contact-left {
     margin-top: 45px;
     position: absolute;

@@ -42,11 +42,6 @@
     <!-- particles.js container -->
 
     <div id="particles-js"></div>
-    <!-- <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> -->
-    <!-- <div id='all-content'>
-        <div class='bg-box'></div>  -->
-
-    <!-- header -->
 
     <header>
         <a class='navbrand' href='#home'>
@@ -78,6 +73,9 @@
 
 
     <div id='fullpage'>
+
+        <!-- Home Page -->
+
         <section class='vertical-scrolling homepage'>
             <div class='home'>
                 <div class='home-left'>
@@ -100,6 +98,9 @@
                 </div>
             </div>
         </section>
+
+        <!-- About Page -->
+
         <section class='vertical-scrolling'>
             <div id='aboutPage' class='about'>
                 <div class='about-left'>
@@ -128,7 +129,7 @@
                                     <i class='fab fa-linkedin'></i></a>
                             </span>
                             <div class='about-btns'>
-                                <a href='assets/resume/MAYANK_AGGARWAL_RESUME_JUNE_1.pdf' target='_blank'
+                                <a href='assets/resume/Kamalesh Kanna Resume (March).pdf' target='_blank'
                                     id='resume-link'>
                                     <i class='fas fa-download'></i>
                                     Resume
@@ -136,7 +137,7 @@
                             </div>
                         </div>
                         <div class='about-btns'>
-                            <a href='assets/resume/MAYANK_AGGARWAL_RESUME_JUNE_1.pdf' target='_blank' id='resume-link'>
+                            <a href='assets/resume/Kamalesh Kanna Resume (March).pdf' target='_blank' id='resume-link'>
                                 <i class='fas fa-download'></i>
                                 Resume
                             </a>
@@ -223,6 +224,9 @@
                 </div>
             </div>
         </section>
+
+        <!-- Skills Page -->
+
         <section class='vertical-scrolling'>
             <div id='skillsPage' class='skills'>
 
@@ -514,6 +518,9 @@
                 </div>
             </div>
         </section>
+
+        <!-- Projects Page -->
+
         <section class='vertical-scrolling unique-sec'>
             <div class='horizontal-scrolling'>
                 <div id='projectsPage' class='projects-page'>
@@ -548,7 +555,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class='projects-mobile-down1'>
+                    <!-- <div class='projects-mobile-down1'>
                         <img src='assets/images/collage.webp' alt='collage1'>
                         <div class='projects-btns'>
                             <a href='projects.html' id='resume-link'>
@@ -1054,8 +1061,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </section>
+
+        <!-- Contact page -->
+
         <section class='vertical-scrolling'>
             <div id='contactPage' class='contact'>
                 <div class='contact-left'>
@@ -1073,24 +1083,33 @@
                             <p class="contact-brief">
                                 I'm available for development-related work.
                             </p>
+                            <br>
                             <div class='contact-tab hidden'>
                                 <div class='contact-label'>
                                     Email:
                                 </div>
+                                <span><i class="email-icon fas fa-envelope contact-icon"></i></span>
                                 <div class='contact-text'>
-                                    <p id='email'>
-                                        kamaleshkdk@gmail.com
-                                    </p>
 
+                                    <a href="https://mailto:kamaleshkdk@gmail.com" style="color: #ff3e55;margin-right: 9%;" id='email'
+                                        target="_blank">
+                                        Kamaleshkdk@gmail.com
+                                    </a>
                                 </div>
                             </div>
 
                             <div class="contact-tab visible">
-                                <a href='https://goo.gl/maps/o79ZeW8ZAH9LKDUa6' target="_blank" class="contact-panel">
+                                <!-- <a href='https://goo.gl/maps/o79ZeW8ZAH9LKDUa6' target="_blank" class="contact-panel">
                                     <i class="fas fa-map-marker-alt contact-icon"></i>Salem Tamil Nadu,636 351
-                                </a>
+                                </a> -->
                                 <a href="https://mailto:kamaleshkdk@gmail.com" target="_blank" class="contact-panel">
-                                    <i class="fas fa-envelope contact-icon"></i> kamaleshkdk@gmail.com
+                                    <i class="fas fa-envelope contact-icon"></i> Kamaleshkdk@gmail.com
+                                </a>
+                                <a href="https://www.linkedin.com/in/kamalesh-kanna-732996225" target="_blank"
+                                    class="contact-panel">
+                                    <i class="linkedin-icon devicon-linkedin-plain  contact-icon"> </i> Linkedin
+
+                                    <!-- <i class="fa fa-linkedin-square" style="font-size:36px"></i> -->
                                 </a>
 
                             </div>
@@ -1153,7 +1172,7 @@
     <script src='https://cdn.jsdelivr.net/npm/typed.js@2.0.11'></script>
     <script>
         const typed = new Typed('#typeit-quote', {
-            strings: ['Full-Stack Developer', 'MERN Stack Developer','UI/UX Web Designer'],
+            strings: ['Full-Stack Developer', 'MERN Stack Developer', 'UI/UX Web Designer'],
             typeSpeed: 70,
             smartBackspace: true,
             backSpeed: 50,
@@ -1196,25 +1215,6 @@
 
             hidePreloader();
         });
-
-// particle
-// var count_particles, stats, update;
-//   stats = new Stats;
-//   stats.setMode(0);
-//   stats.domElement.style.position = 'absolute';
-//   stats.domElement.style.left = '0px';
-//   stats.domElement.style.top = '0px';
-//   document.body.appendChild(stats.domElement);
-//   count_particles = document.querySelector('.js-count-particles');
-//   update = function() {
-//     stats.begin();
-//     stats.end();
-//     if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-//       count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-//     }
-//     requestAnimationFrame(update);
-//   };
-//   requestAnimationFrame(update);
 
     </script>
 
