@@ -43,7 +43,13 @@
     font-family: futuramedium, serif;
     width: 97%;
 }
-
+.github-word{
+    margin-left: 7px;
+}
+.linked-in-word{
+    margin-bottom: 13px;
+    margin-left: 7px;
+}
 .clip {
     color: var(--primary-color);
     background: transparent;
@@ -61,12 +67,12 @@
     font-size: 21px;
     width: 100%;
     text-align: left;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .contact-tab {
     display: flex;
-    margin-bottom: 20px;
+    /* margin-top: 20px; */
 }
 
 .visible {
@@ -85,7 +91,6 @@
     font-size: 18px;
     font-family: futuramedium, serif;
     color: var(--primary-color);
-
 }
 
 .contact-tab:first-child > .contact-text > p:first-child {
@@ -598,7 +603,7 @@ textarea:focus {
     }
 
     .contact-panel:nth-child(3) {
-        width: 55%;
+        width: 85%;
     }
 }
 
@@ -626,7 +631,7 @@ textarea:focus {
     }
 
     .contact-panel:nth-child(1) {
-        width: 84%;
+        width: 85%;
     }
 }
 
@@ -640,7 +645,7 @@ textarea:focus {
     }
 
     .contact-panel:nth-child(3) {
-        width: 62%;
+        width: 85%;
     }
 
     .contact-brief {
