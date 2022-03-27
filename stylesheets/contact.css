@@ -5,9 +5,11 @@
     margin-left: 11%;
     align-items: center;
 }
-.email-icon{
+
+.email-icon {
     color: var(--primary-color);
 }
+
 .contact-left {
     margin-top: 45px;
     position: absolute;
@@ -30,10 +32,10 @@
 .contact-headline {
     display: flex;
     font-family: futuramedium, serif;
-    margin-left:5px;
+    margin-left: 5px;
 }
 
-.contact-headline > h1 {
+.contact-headline>h1 {
     font-weight: 400;
     font-size: 120px;
 }
@@ -43,13 +45,16 @@
     font-family: futuramedium, serif;
     width: 97%;
 }
-.github-word{
+
+.github-word {
     margin-left: 7px;
 }
-.linked-in-word{
+
+.linked-in-word {
     margin-bottom: 13px;
     margin-left: 7px;
 }
+
 .clip {
     color: var(--primary-color);
     background: transparent;
@@ -79,11 +84,11 @@
     display: none;
 }
 
-.contact-tab > .contact-label {
+.contact-tab>.contact-label {
     margin-right: 60px;
 }
 
-.contact-tab:first-child > .contact-label {
+.contact-tab:first-child>.contact-label {
     margin-right: 68px;
 }
 
@@ -93,12 +98,12 @@
     color: var(--primary-color);
 }
 
-.contact-tab:first-child > .contact-text > p:first-child {
+.contact-tab:first-child>.contact-text>p:first-child {
     margin-top: 4px;
     margin-bottom: 20px;
 }
 
-.contact-tab:nth-child(2) > .contact-text > p {
+.contact-tab:nth-child(2)>.contact-text>p {
     margin-top: 3px;
 }
 
@@ -131,7 +136,7 @@
 }
 
 .contact-form,
-.contact-form > form {
+.contact-form>form {
     width: 100%;
 }
 
@@ -146,8 +151,8 @@
     font-family: futuramedium, serif;
 }
 
-form > div > input,
-form > div > textarea {
+form>div>input,
+form>div>textarea {
     width: 90%;
 }
 
@@ -176,7 +181,7 @@ form > div > textarea {
     text-align: right;
 }
 
-.submit-btn > input {
+.submit-btn>input {
     width: 170px;
     color: var(--primary-color);
     border: 4px solid var(--primary-color);
@@ -190,7 +195,7 @@ form > div > textarea {
     border-radius: 2px;
 }
 
-.submit-btn > input:hover {
+.submit-btn>input:hover {
     background-color: var(--primary-color);
     color: var(--bg-color);
 }
@@ -233,7 +238,7 @@ textarea:focus {
 }
 
 .contact-panel:nth-child(3) {
-    width: 39.5%;
+    width: 64%;
 }
 
 .contact-icon {
@@ -248,7 +253,7 @@ textarea:focus {
         margin-left: 10%;
     }
 
-    .contact-headline > h1 {
+    .contact-headline>h1 {
         font-size: 115px;
     }
 
@@ -271,16 +276,16 @@ textarea:focus {
         margin-left: 9%;
     }
 
-    .contact-headline > h1 {
+    .contact-headline>h1 {
         font-size: 109px;
     }
 
-    .contact-tab > .contact-label {
-        margin-right: 49px;
+    .contact-tab>.contact-label {
+        margin-right: 69px;
     }
 
-    .contact-tab:first-child > .contact-label {
-        margin-right: 56px;
+    .contact-tab:first-child>.contact-label {
+        margin-right: 96px;
     }
 }
 
@@ -294,13 +299,13 @@ textarea:focus {
         font-size: 16px;
     }
 
-    .submit-btn > input {
+    .submit-btn>input {
         width: 165px;
         padding: 10px 5px;
         margin-right: 10px;
     }
 
-    .contact-headline > h1 {
+    .contact-headline>h1 {
         font-size: 100px;
     }
 
@@ -323,16 +328,16 @@ textarea:focus {
         letter-spacing: 1px;
     }
 
-    .contact-headline > h1 {
+    .contact-headline>h1 {
         font-size: 96px;
     }
 
-    .contact-tab > .contact-label {
-        margin-right: 29px;
+    .contact-tab>.contact-label {
+        margin-right: 49px;
     }
 
-    .contact-tab:first-child > .contact-label {
-        margin-right: 36px;
+    .contact-tab:first-child>.contact-label {
+        margin-right: 56px;
     }
 }
 
@@ -351,7 +356,7 @@ textarea:focus {
         margin-left: 14px;
     }
 
-    .contact-headline > h1 {
+    .contact-headline>h1 {
         font-size: 95px;
     }
 
@@ -374,11 +379,11 @@ textarea:focus {
         margin-bottom: 3%;
     }
 
-    .contact-tab > .contact-label {
+    .contact-tab>.contact-label {
         margin-right: 28px;
     }
 
-    .contact-tab:first-child > .contact-label {
+    .contact-tab:first-child>.contact-label {
         margin-right: 34px;
     }
 
@@ -395,7 +400,7 @@ textarea:focus {
         width: 385px;
     }
 
-    .submit-btn > input {
+    .submit-btn>input {
         width: 130px;
         padding: 9px 5px;
         font-size: 15px;
@@ -435,7 +440,7 @@ textarea:focus {
         margin-bottom: 6px;
     }
 
-    .submit-btn > input {
+    .submit-btn>input {
         padding: 7px 3px;
         font-size: 14px;
     }
@@ -464,12 +469,13 @@ textarea:focus {
         flex-direction: column;
     }
 
-    .contact-tab:first-child > .contact-text > p:first-child {
+    .contact-tab:first-child>.contact-text>p:first-child {
         margin-top: 4px;
+        margin-right: 30px;
         margin-bottom: 22px;
     }
 
-    .contact-headline > h1 {
+    .contact-headline>h1 {
         font-size: 96px;
     }
 
@@ -479,6 +485,10 @@ textarea:focus {
 }
 
 @media screen and (max-width: 770px) {
+    .contact-tab {
+        margin-right: 30px;
+    }
+
     .contact {
         display: flex;
         flex-direction: column;
@@ -493,7 +503,7 @@ textarea:focus {
         margin-top: 8%;
     }
 
-    .contact-headline > h1 {
+    .contact-headline>h1 {
         font-size: 88px;
     }
 }
@@ -539,7 +549,7 @@ textarea:focus {
     }
 
     .contact-panel:nth-child(3) {
-        width: 43%;
+        width: 64%;
     }
 }
 
@@ -548,7 +558,7 @@ textarea:focus {
         margin-top: 11%;
     }
 
-    .contact-headline > h1 {
+    .contact-headline>h1 {
         font-size: 75px;
     }
 
@@ -563,11 +573,11 @@ textarea:focus {
     }
 
     .contact-panel:nth-child(2) {
-        width: 69%;
+        width: 70%;
     }
 
     .contact-panel:nth-child(3) {
-        width: 47%;
+        width:70%;
     }
 }
 
@@ -577,16 +587,16 @@ textarea:focus {
     }
 
     .contact-panel:nth-child(2) {
-        width: 75%;
+        width: 76%;
     }
 
     .contact-panel:nth-child(3) {
-        width: 51%;
+        width: 76%;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .contact-headline > h1 {
+    .contact-headline>h1 {
         font-size: 65px;
     }
 
@@ -595,7 +605,7 @@ textarea:focus {
     }
 
     .contact-panel:nth-child(1) {
-        width: 83%;
+        width: 84%;
     }
 
     .contact-panel:nth-child(2) {
@@ -603,7 +613,7 @@ textarea:focus {
     }
 
     .contact-panel:nth-child(3) {
-        width: 85%;
+        width: 84%;
     }
 }
 
@@ -612,7 +622,7 @@ textarea:focus {
         margin-top: 15%;
     }
 
-    .contact-headline > h1 {
+    .contact-headline>h1 {
         font-size: 60px;
     }
 
@@ -636,7 +646,7 @@ textarea:focus {
 }
 
 @media screen and (max-width: 450px) {
-    .contact-headline > h1 {
+    .contact-headline>h1 {
         font-size: 56px;
     }
 
@@ -649,7 +659,7 @@ textarea:focus {
     }
 
     .contact-brief {
-         font-size: 17px;
+        font-size: 17px;
     }
 
     .contact-info {
@@ -662,7 +672,7 @@ textarea:focus {
         font-family: monospace !important;
     }
 
-    .contact-headline > h1 {
+    .contact-headline>h1 {
         font-size: 52px;
     }
 
@@ -689,16 +699,16 @@ textarea:focus {
 }
 
 @media screen and (max-width: 380px) {
-    .contact-headline > h1 {
+    .contact-headline>h1 {
         font-size: 52px;
     }
 
-    .contact-panel:nth-child(2) > .contact-icon {
+    .contact-panel:nth-child(2)>.contact-icon {
         margin-right: 6px;
     }
 
     .contact-panel:nth-child(3) {
-        width: 65%;
+        width: 85%;
     }
 
     .contact-left {
@@ -724,69 +734,69 @@ textarea:focus {
     grid-template-columns: repeat(6, 15%);
     gap: 10px;
     justify-content: center;
-  
-  }
-  
-  .gridFormatCards {
+
+}
+
+.gridFormatCards {
     display: grid;
     grid-template-columns: repeat(3, 32%);
     justify-content: center;
     gap: 20px;
-  }
-  
+}
+
 @media (max-width: 991px) {
     .brand-margin {
-      margin-right: 0px;
+        margin-right: 0px;
     }
-  
+
     .h1Tag-font-size {
-      font-size: 40px;
+        font-size: 40px;
     }
-  
+
     .top-margin {
-      margin-top: 50px;
+        margin-top: 50px;
     }
-  
+
     .gridFormat {
-      grid-template-columns: repeat(4, 24%);
+        grid-template-columns: repeat(4, 24%);
     }
-  
-  }
-  
-  @media (max-width: 767px) {
-  
+
+}
+
+@media (max-width: 767px) {
+
     .gridFormatCards {
-      grid-template-columns: repeat(1, 99%);
+        grid-template-columns: repeat(1, 99%);
     }
-    
-  }
-  
-  @media (max-width: 576px) {
+
+}
+
+@media (max-width: 576px) {
     .gridFormat {
-      grid-template-columns: repeat(3, 33%);
+        grid-template-columns: repeat(3, 33%);
     }
-  }
-  
-  @media (max-width: 426px) {
-  
+}
+
+@media (max-width: 426px) {
+
     .gridFormat {
-      grid-template-columns: repeat(2, 49%);
+        grid-template-columns: repeat(2, 49%);
     }
-  
+
     .h1Tag-font-size {
-      font-size: 28px;
+        font-size: 28px;
     }
-  
+
     .contentHeight {
-      height: 280px;
+        height: 280px;
     }
-  }
-  
-  @media (max-width: 376px) {
-  
+}
+
+@media (max-width: 376px) {
+
     .h1Tag-font-size {
-      font-size: 26px;
+        font-size: 26px;
     }
-  
-    
-  }
+
+
+}
