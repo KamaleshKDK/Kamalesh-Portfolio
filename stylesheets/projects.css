@@ -215,7 +215,8 @@
 }
 
 .project-text>.project-name {
-    font-size: 25px
+    font-size: 25px;
+    margin-bottom: 15px;
 }
 
 .project-text>span {
